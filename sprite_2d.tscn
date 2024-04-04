@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://535x4dcf8uy8"]
+
+[ext_resource type="Texture2D" uid="uid://bnrjvw1pqd65l" path="res://icon.svg" id="1_xurxc"]
+[ext_resource type="Script" path="res://picture.cs" id="2_arhgd"]
+
+[node name="Picture" type="Sprite2D"]
+position = Vector2(580, 273)
+texture = ExtResource("1_xurxc")
+script = ExtResource("2_arhgd")
+
+[node name="Clock" type="Timer" parent="."]
